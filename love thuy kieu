@@ -1,0 +1,47 @@
+<body>
+
+<style>
+body{
+    margin:0;
+    overflow:hidden;
+    background:linear-gradient(135deg,#ff9ecb,#ffd6e7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+}
+
+h1{
+    color:white;
+    font-size:50px;
+    text-align:center;
+    text-shadow:0 0 20px hotpink;
+}
+
+#cat{
+    position:fixed;
+    bottom:20px;
+    left:-150px;
+    width:120px;
+    image-rendering:pixelated;
+    animation:run 12s linear infinite;
+}
+
+@keyframes run{
+    from{
+        left:-150px;
+    }
+    to{
+        left:110%;
+    }
+}
+</style>
+
+<h1>Tôi yêu Kiềuu nhiều lớmm ❤️</h1>
+
+<img id="cat"
+src="https://media.tenor.com/2roX3uxz_68AAAAi/pixel-cat.gif"
+alt="Pixel Cat">
+
+</body>
